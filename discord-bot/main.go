@@ -22,7 +22,7 @@ var (
 
 func init() {
 
-	flag.StringVar(&Token, "t", "Njk1MzA1NTczODA1MTk1MzU0.XoydLQ.nNeBlpCqPSFmIjHAbD0vfjf0Gbs", "Bot Token")
+	flag.StringVar(&Token, "t", "", "Bot Token")
 	flag.StringVar(&AvatarFile, "f", "", "Avatar File Name")
 	flag.StringVar(&AvatarURL, "u", "https://images-na.ssl-images-amazon.com/images/I/61a0edomNQL._AC_SY879_.jpg", "URL to the avatar image")
 	flag.Parse()
