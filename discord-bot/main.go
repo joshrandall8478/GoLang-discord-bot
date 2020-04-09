@@ -27,7 +27,6 @@ func init() {
 	flag.StringVar(&AvatarURL, "u", "https://images-na.ssl-images-amazon.com/images/I/61a0edomNQL._AC_SY879_.jpg", "URL to the avatar image")
 	flag.Parse()
 
-	//Token = "Njk1MzA1NTczODA1MTk1MzU0.XoYP4w.3AwCp_bpOKs7Te-HYlutF_ou86M"
 	if Token == "" || (AvatarFile == "" && AvatarURL == "") {
 		flag.Usage()
 		os.Exit(1)
